@@ -1,0 +1,47 @@
+/* Globales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+/* Header */
+
+.main{
+    padding: 10px;
+    list-style: none;
+    background-color: #C34689;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoheader{
+    display: flex;
+    justify-content: space-between;
+}
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+}
+.mainnav li{
+    padding: 5px;
+}
+
+/* Felitcitaciones */
+
+.congrats{
+    background-image: url(media/img/congratsbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 512px
+    
+}
+.msg{
+    padding: 10%;
+    text-align: center;
+    color: #FEC9F1;
+}
